@@ -12,7 +12,7 @@ O objetivo deste desafio é criar uma aplicação React onde você cria e gerenc
 - Ao clicar em algum elemento da página
   - deve mostrar um efeito visual (bolinha vermelha) indicando o local exato em que foi clicado;
   - deve atualizar a lista de hotspots logo abaixo do botão “Criar Hotspot”;
-  - não precisa abrir uma caixa para digital texto, como na [Imagem 1](#image1)
+  - abrir um popover onde o usuário poderá digitar um título e uma mensagem (veja a [Imagem 1](#image1) como referência)
   - deve salvar as informações do hotspot (localStorage)
 - Na listagem de hotspots, ao clicar em “Delete”, deve-se:
   - Remover o hotspot (efeito visual) da interface e;
@@ -20,8 +20,8 @@ O objetivo deste desafio é criar uma aplicação React onde você cria e gerenc
 - Utilizar Redux para controlar o estado da aplicação (ex: hotspot cadastrados)
 
 # Bonus
-- Criação de testes para os components (Biblioteca fica a seu critério)
 - Atenção para o layout
+- Criação de testes para os componentes (Biblioteca fica a seu critério)
 - Usar (quando necessário), features das novas versões do JS
 - Documentação
 
